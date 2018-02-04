@@ -7,11 +7,11 @@ input="${root}/INPUT"
 output="${root}/OUTPUT"
 build="${root}/BUILD"
 
-component=
-config=
+component=$1
+config=$2
 
 fail() {
-  echo  >&2 && exit 1
+  echo $1 >&2 && exit 1
 }
 
 build() {
