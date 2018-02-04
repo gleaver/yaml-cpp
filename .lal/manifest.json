@@ -1,0 +1,17 @@
+{
+  "name": "yaml-cpp",
+  "environment": "arch",
+  "supportedEnvironments": [
+    "arch"
+  ],
+  "components": {
+    "yaml-cpp": {
+      "defaultConfig": "release",
+      "configurations": [
+        "release"
+      ]
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
